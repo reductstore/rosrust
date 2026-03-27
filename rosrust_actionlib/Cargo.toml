@@ -10,7 +10,7 @@ build = "build.rs"
 [dependencies]
 rosrust = {path="../rosrust"}
 rosrust_msg = {path="../rosrust_msg"}
-paste = "1.0.5"
+paste = { package = "pastey", version = "0.2.1" }
 
 [build-dependencies]
 rosrust_msg = {path="../rosrust_msg"}
